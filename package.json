@@ -1,22 +1,15 @@
 {
-  "name": "angular-material-badge",
-  "version": "2.0.0",
-  "description": "Material Badge for AngularJS",
-  "main": "angular-material-badge.js",
-  "repository": "https://github.com/ctrlaltcrt/angular-material-badge",
-  "author": "Juan Manuel <jmouriz@gmail.com>",
-  "contributors": ["Derick Kemp <derick@controlaltcreate.co.za>"],
-  "license": "MIT",
-  "dependencies": {
-    "angular": "^1.7.9",
-    "angular-animate": "^1.7.9",
-    "angular-aria": "^1.7.9",
-    "angular-material": "^1.1.21"
-  },
-  "devDependencies": {
-    "angular-marked": "^1.2.2",
-    "angular-material-icons": "^0.7.1",
-    "minify": "^3.0.1",
-    "prismjs": "^1.6.0"
-  }
+    "name": "angular-material-badge",
+    "version": "2.0.0",
+    "description": "Material Badge for AngularJS",
+    "main": "source/index.js",
+    "repository": "https://github.com/ctrlaltcrt/angular-material-badge",
+    "author": "Juan Manuel <jmouriz@gmail.com>",
+    "contributors": ["Derick Kemp <derick@controlaltcreate.co.za>"],
+    "license": "MIT",
+    "dependencies": {
+        "angular": "^1.7.9",
+        "angular-aria": "^1.7.9",
+        "angular-material": "^1.1.21"
+    }
 }

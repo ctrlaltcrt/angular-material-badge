@@ -1,43 +1,32 @@
 # angular-material-badge
 
-Material Badge for AngularJS
+This a fork of [jmouriz's original version](https://github.com/jmouriz/angular-material-badge) of this library with the aim of converting it to an ES6 module and removing the attribute style of using the directive as it makes use of deprecated Mutation Events.
 
-## Demo
-
-View [online demo](https://jmouriz.github.io/angular-material-badge/demo/demo.html)
+The package now only has one version of the directive, which works in element style and makes use of jmouriz's style files.
 
 ## Install
 
 Download the package:
 
 ```
-yarn add angular-material-badge
+npm install ctrlaltcrt/angular-material-badge
 ```
 
 ## Usage
 
-In your document head, include:
+**Note:** *The following section assumes you are using webpack or some other bundler.*
 
-```html
-<link rel="stylesheet" href="node_modules/angular-material-badge/angular-material-badge.min.css" />
+Include the module in your application:
+
+```javascript
+import ngMdBadge from 'angular-material-badge';
+import ngMdBadgeCss from 'angular-material-badge/angular-material.css';
+
+const application = angular.module('Application', ['ngMdBadge']);
 ```
 
 Use the md-badge where you wish:
 
 ```html
 <md-badge>12</md-badge>
-
-<ng-md-icon md-badge="12" icon="notifications"></ng-md-icon>
-```
-
-Then, just before close body tag, include:
-
-```html
-<script src="node_modules/angular-material-badge/angular-material-badge.min.js"></script>
-```
-
-Include the module in your application:
-
-```javascript
-var application = angular.module('Application', ['ngMdBadge']);
 ```
