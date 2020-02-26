@@ -1,16 +1,17 @@
 {
   "name": "angular-material-badge",
-  "version": "1.2.9",
+  "version": "2.0.0",
   "description": "Material Badge for AngularJS",
   "main": "angular-material-badge.js",
-  "repository": "https://github.com/jmouriz/angular-material-badge",
+  "repository": "https://github.com/ctrlaltcrt/angular-material-badge",
   "author": "Juan Manuel <jmouriz@gmail.com>",
+  "contributors": ["Derick Kemp <derick@controlaltcreate.co.za>"],
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.6.5",
-    "angular-animate": "^1.6.5",
-    "angular-aria": "^1.6.5",
-    "angular-material": "^1.1.4"
+    "angular": "^1.7.9",
+    "angular-animate": "^1.7.9",
+    "angular-aria": "^1.7.9",
+    "angular-material": "^1.1.21"
   },
   "devDependencies": {
     "angular-marked": "^1.2.2",
