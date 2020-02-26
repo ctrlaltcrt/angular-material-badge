@@ -2,7 +2,7 @@
     "name": "angular-material-badge",
     "version": "2.0.0",
     "description": "Material Badge for AngularJS",
-    "main": "source/index.js",
+    "main": "source",
     "repository": "https://github.com/ctrlaltcrt/angular-material-badge",
     "author": "Juan Manuel <jmouriz@gmail.com>",
     "contributors": ["Derick Kemp <derick@controlaltcreate.co.za>"],
